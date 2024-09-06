@@ -1,1 +1,0 @@
-só no macetinho
