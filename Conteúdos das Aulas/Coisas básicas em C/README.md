@@ -7,6 +7,8 @@
 - Por ser extremamente leve, programar e compilar em C não exige tanto de um computador, sendo necessário apenas uma IDE simples (Code::Blocks) ou Visual Studio Code.
 - Compilador MinGW instalado no computador. (Se você usa VS Code, saiba como instalar na aba "Macetes", no meu repositório da Monitoria)
 
+
+
 ### ⏬ Estrutura simples de linguagem C:
 
 Note com atenção o código à seguir, um código simples em C, comentado com coisas básicas que você verá durante a disciplina:
@@ -32,6 +34,8 @@ int main(){
   Nesse código temos o básico do básico em C, como estamos em AP2, não vou focar muito no básico, mas acho essencial mencionar essa parte. Sobre a tipagem correta de qual '%x' usar durante as entradas de dados
   irei separar a tabela de referência na aba (macetes) de meu repositório.
 
+
+
   ### ➗ Condicionais na linguagem C e operadores aritméticos:
 
   💡 Assim como na matemática básica, os operadores em C, seguem o padrão de icones, como '+' ou '-', respectivamente os nomes e cada um que pode ser usado:
@@ -52,6 +56,8 @@ Repare no exemplo:
   - Use != para comunicar no código o operador "diferente" (Exemplo: X != y, quer dizer que o valor de x tem que ser diferente de y).
   - <, >, <=, >=, respectivos menor, maior, menor ou igual e maior ou igual, são auto-explicativos.
 
+
+
 ### 🧨 Estrutura condicional programada em C:
 
 Na linguagem C, operar uma estrutura lógica que verifique condições que são verdadeiras ou falsas, possui a seguinte forma:
@@ -68,6 +74,8 @@ Uma condição pode ser simples ou composta, caso ela seja composta, aí entra o
 
 💡Dica: Nem todo "if" precisa de um "else", o uso do "else" existe apenas para criar uma segunda alternativa para uma condição, pense, se eu quero algo mas não consigo, eu posso simplesmente ir embora, ou escolher outra opção, é aí que entra o "else".
 🗣️Para mais informações sobre operadores condicionais, veja o arquivo "exemplos.md" que está nesse tópico o qual você está lendo.
+
+
 
 ### ❓ Condicionais de escolha:
 
