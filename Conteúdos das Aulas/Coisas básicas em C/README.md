@@ -76,6 +76,19 @@ Por fim, temos as condicionais de escolha que podemos usar caso haja multiplas o
 ``` C
     switch(variavel) {   //O "switch" abre a condicional de escolha, e vai direto ao valor que a variável guarda
 
+    case 1: //o número após o 'case' representa qual condicional será rodada baseada no valor da variável, que deve ser o mesmo do valor do case, nesse caso, valor 1.
+        //seu código aqui
+        break; //aqui você sai da estrutura de escolha após rodar o que estiver em seu caso
 
+    case 2:
+        //seu código aqui
+        break;
+
+    //os cases podem ser vários, e o que diferencia de um pra outro é sempre seu número de escolha.
+
+    default: //esse só é chamado caso o usuário escolha um valor de opção que não exista caso pro mesmo, nesse exemplo, rodaria o "default" se caso o usuário digitasse 3.
+        //seu código aqui
+        break;
 }
 ```
+Não tem segredo usar "switch", repare que o parenteses que existe nessa estrutura é a condição de qual caso deve ser rodado.
