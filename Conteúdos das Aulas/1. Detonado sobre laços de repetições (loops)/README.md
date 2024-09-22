@@ -30,10 +30,21 @@ Ele requisita que o código faça seu comando e depois verifica a condição, en
 
 ### For ⏬
 
-Esse loop parece ser complexo de entender, mas é bem fácil, ele segue uma linha obrigatória de comandos sempre. Ele é ideal para quando você sabe quantas vezes deseja repetir algo. Bastante usado para poder criar planilhas, fazer somatórios complexos, ou repetir sempre o tanto de vezes que você desejar, sendo o mais completo de todos os loops, mas nem sempre o ideal!
+Esse loop parece ser complexo de entender, mas é bem fácil, ele segue uma linha obrigatória de comandos sempre. Ele é ideal para quando você sabe quantas vezes deseja repetir algo. Bastante usado para poder criar planilhas, fazer somatórios complexos, ou repetir sempre o tanto de vezes que você desejar, possuindo uma forma de declarar até mesmo a variavel a ser usada no loop, fazer a manutenção do loop para ele fechar automaticamente, sendo o mais completo de todos os loops, mas nem sempre o ideal!
 
 Sua lógica consiste dessa seguinte forma:
 
 <div align="center">
+
+ Inicio do loop >> condição que o loop deve parar >> somador, também chamado de incremento
+  
 </div>
+
+Veja melhor no exemplo a seguir, no qual o código usando for conta de 1 a 10 também:
+``` C
+ for (int i = 1; i < 11; i++) {        //o inicio do loop é 1, condicao é i menor que 11, e soma sempre + 1
+    printf("%d\n", i);
+}
+```
+
 
