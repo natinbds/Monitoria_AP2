@@ -32,4 +32,22 @@ Também é possível modificar o valor de um determinado índice, manipulando po
 
 ### ⏬ Agora, sobre os arrays multidimensionais (matrizes)
 
-Para criar é a mesma forma da array unidimensional
+Para criar é a mesma forma da array unidimensional, porém usamos dois índices, o primeiro é para linhas, o segundo é para colunas
+
+``` C
+  int matriz[3][3] = {
+    {1, 22, 34},
+    {42, 55, 61},
+    {76, 85, 91}
+};
+                  //posso preencher ela assim na declaração ou fazer com que o usuário preencha usando loops
+
+```
+
+Seguindo o que já citei nesse tópico sobre índices, pode-se notar que:
+- [0,0] é 1, pois é o primeiro índice tanto das linhas como das colunas;
+- [2,1] é 85, pois é o valor correspondente que está na terceira linha, e na segunda coluna;
+
+😪  Sei que pode parecer confuso esse lance de índice começar em 0. Mas é fácil de pegar o jeito na prática.
+
+🚨  Recapitulando o que foi passado no tópico, as arrays permitem armazenar uma quantidade grande de dados em uma única variável, alocando memória para a mesma, as quais chamamos suas partições de índices, é como criar uma planilha no Excel ou no LibreOffice Calc, cada espaço dessa planilha guarda um valor, faz sentido?
