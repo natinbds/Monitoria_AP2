@@ -51,3 +51,5 @@ Seguindo o que já citei nesse tópico sobre índices, pode-se notar que:
 😪  Sei que pode parecer confuso esse lance de índice começar em 0. Mas é fácil de pegar o jeito na prática.
 
 🚨  Recapitulando o que foi passado no tópico, as arrays permitem armazenar uma quantidade grande de dados em uma única variável, alocando memória para a mesma, as quais chamamos suas partições de índices, é como criar uma planilha no Excel ou no LibreOffice Calc, cada espaço dessa planilha guarda um valor, faz sentido?
+
+📝  Caso queira testar como funciona, separei códigos onde você cria suas arrays, seja vetor ou matriz, você escolhe, os códigos estão no topo desse tópico. 🔝🔝🔝
