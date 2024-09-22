@@ -12,37 +12,40 @@ int main(){
     scanf("%i", &opcao);
 
   switch(opcao){
-    case 1:
-      //a seguir condicional simples
-        if (numero > 3) {
-          printf("o numero é maior que tres");
-        } else {
-          printf("O numero é menor que tres");
-        }
-    break;
+        case 1:
+          //a seguir condicional simples
+            if (numero > 3) {
+              printf("o numero é maior que tres");
+            } else {
+              printf("O numero é menor que tres");
+            }
+        break;
 
-    case 2:
-  //a seguir condicional composta
-    if ((condição1&&condição2)||condição3){
-      //comandos caso condição seja verdadeira
-} else { 
-      //comandos caso condição seja falsa
-    }
-break;
+        case 2:
+          //a seguir condicional composta
+            if ((condição1&&condição2)||condição3){
+              //comandos caso condição seja verdadeira
+                } else { 
+              //comandos caso condição seja falsa
+              }
+        break;
 
-    case 3:
-  //a seguir condicional aninhada, complexa de entender porém um quebra-galho especial para multiplas verificações de condições
-    if (condição){
-        if (condição2){
-          //comandos caso a condição 1 e a 2 sejam verdadeiras
-        }
-    } else {
-        if (condição3){
-          //comandos caso a condição 1 e 2 sejam falsa, mas a 3 seja verdadeira
-        }
-    }
+        case 3:
+          //a seguir condicional aninhada, complexa de entender porém um quebra-galho especial para multiplas verificações de condições
+            if (condição){
+                if (condição2){
+                  //comandos caso a condição 1 e a 2 sejam verdadeiras
+                }
+            } else {
+                if (condição3){
+                  //comandos caso a condição 1 e 2 sejam falsa, mas a 3 seja verdadeira
+                }
+            }
+        break;
 
-    default:
-      printf("\ncomando inválido"); //note que usei '\n' nesse, ou seja haverá quebra de linha para depois exibir a mensagem
-
+        default:
+              printf("\ncomando inválido"); //note que usei '\n' nesse, ou seja haverá quebra de linha para depois exibir a mensagem
+        break;
+        
+    return 0; //retorna zero a função principal e fecha o código
 }
