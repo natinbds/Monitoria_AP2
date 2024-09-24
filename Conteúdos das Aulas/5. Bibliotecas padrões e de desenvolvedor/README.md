@@ -61,3 +61,23 @@ int main(){
 ...
 }
 ```
+<br>
+
+### ⚙️ E por fim, compilar o código com a biblioteca de desenvolvedor
+
+No Code::Blocks, o botão da engrenagem com o play verde compila ambos arquivos juntos, no Visual Studio Code se você estiver com as instalações de suas extensões feitas corretamente o botão de play irá compilar 
+corretamente pois já chamamos a biblioteca no arquivo principal. Mas se de tudo não der certo, você pode compilar assim no seu terminal:
+
+(lembre=se que para compilar é necessário estar no local correto do diretório de seu arquivo)
+
+``` Markdown
+gcc main.c minha_biblioteca.h -o programa
+
+```
+Note que a ordem do compilador GCC é o " arquivo.c arquivo.h -o nome_do_programa_que_desejar "
+
+Após compilar ele criará um executável, você pode dar duplo clique ou digitar o comando seguinte para rodar ele já no terminal:
+
+``` Markdown
+ ./programa
+```
