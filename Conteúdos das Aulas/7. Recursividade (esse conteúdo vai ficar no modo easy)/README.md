@@ -72,7 +72,7 @@ int fatorial(int n) {
 
 int main(){
     int numero = 7;
-    printf("o fatorial de %d é %d\n", numero, fatorial(numero)); //resultado esperado é 720
+    printf("o fatorial de %d é %d\n", numero, fatorial(numero)); //resultado esperado é 5040
     return 0;
 }
 
