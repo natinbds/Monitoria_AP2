@@ -68,7 +68,7 @@ int main(){
 No Code::Blocks, o botão da engrenagem com o play verde compila ambos arquivos juntos, no Visual Studio Code se você estiver com as instalações de suas extensões feitas corretamente o botão de play irá compilar 
 corretamente pois já chamamos a biblioteca no arquivo principal. Mas se de tudo não der certo, você pode compilar assim no seu terminal:
 
-(lembre=se que para compilar é necessário estar no local correto do diretório de seu arquivo)
+(lembre-se que para compilar é necessário estar no local correto do diretório de seu arquivo)
 
 ``` Markdown
 gcc main.c minha_biblioteca.h -o programa
